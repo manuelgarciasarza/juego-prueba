@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}     
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C99947;
+}
+
+.cuerpo {
+    background-color: #D2B178;
+}
+
+.pie {
+    background-color: #C99947; 
+}
+/* nav */
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: all 0,5s linear;
+  }
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color:#4A381A ;
+    transition: all 0,5s linear;
+  } 
+
+nav ul li{  
+    transition: all 0,5s linear;
+  }   
+
+nav ul li:hover {
+    transform: scale(2,2);
+    transition: all 0,5s linear;
+  }
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.cabezera {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    margin-top: 16px;
+}
+
+.nav-menu ul li {
+    margin: 0 20px;
+}
+
+/* section uno */
+
+.bienvenido h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4F483C;
+}
+
+.bienvenido h1:hover {
+    transform: translateY(3px);
+}
+
+.tabernero img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.texto-tabernero p {
+    margin-top: 30px;
+    padding: 15px 20px;
+    margin-left: 4px;
+}
+
+/* seccion dos */
+
+.seccion-dos {
+    padding-left: 30px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.eleccion h2 {
+    text-align: center;
+    margin: 30px 0;
+    color: #4F483C;
+}
+
+.eleccion h2:hover {
+    transform: translateY(3px);
+}
+
+.card .card-img-top {
+    height: 350px;
+}
+
+.card .card-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-custom:hover {
+    transform: skew(2deg);
+}
+
+.btn-custom {
+    background-color: #4A381A;
+}
+
+.personajes {
+    background-color: #997535;
+}
+/* footer */
+
+.seguinos h3 {
+    text-align: center;
+    margin: 30px 0;
+    color: #4F483C;
+}
+
+.seguinos h3:hover {
+    transform: translateY(-5px);
+}
+
+.redes {
+    justify-content: center;
+}
+
+.redes .redes-logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes .redes-logo img:hover{
+    transform: translateY(-10px);
+}
+
+/* historia */
+
+.main-historia{
+    width: 60%;
+    margin: auto;
+}
+
+.texto-historia p{
+    margin-top: 30px;
+}
+
+.libro-historia img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* caminos */
+.main-caminos{
+    width: 70%;
+    margin: 20px auto;
+}
+.bosque-negro {
+    width: 100%;
+    height: 600px;
+}
+
+.caminos-info h3{
+    text-align: center;
+}
+
+.caminos-info h3:hover{
+    text-decoration: underline
+}
+
+/* misiones */
+
+.caja-card {
+    background-color:#C99947;
+    border: solid 2px #4F483C;
+    margin: 30px 0;
+}
+
+.misiones-body {
+    background-color: #D2B178;
+    justify-content: center;
+    align-items: center;
+}
+
+.misiones-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.contenido-card h3{
+    text-align: center;
+}
+
+.contenido-card h3:hover{
+    text-decoration: underline;
+}
+
+.contenido-card p{
+    text-align: center;
+}
+
+.contenido-card ul li a{
+    color:#D2B178;
+    text-decoration: none;
+}
+
+.contenido-card ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-card ul li{
+    background-color:#4A381A;
+    border: solid 2px #4F483C;
+    padding: 4px;
+    margin: 5px;
+}
+
+.contenido-card ul li:hover{
+    opacity: 0.9;
+    transform: scale(1.1,1.1);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+/* media */
+@media (max-width: 768px) {
+    .main-historia{
+        width: 100%;
+    }
+    .main-caminos{
+        width: 100%;
+    }
+    .bosque-negro {
+        width: 100%;
+        height: 328px;
+    }
+}
+
+
