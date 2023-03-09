@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}     
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C99947;
+}
+
+.cuerpo {
+    background-color: #D2B178;
+}
+
+.pie {
+    background-color: #C99947; 
+}
+
+.no-padding {
+    padding: 0;
+}

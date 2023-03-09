@@ -1,0 +1,23 @@
+.seguinos {
+    h3 {
+        text-align: center;
+        margin: 30px 0;
+        color: #4F483C;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+} 
+.redes {
+    justify-content: center;
+    .redes-logo {
+        img{
+            width: 30px;
+            height: 30px;
+            &:hover{
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
+

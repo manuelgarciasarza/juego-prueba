@@ -1,0 +1,16 @@
+.main-caminos{
+    width: 70%;
+    margin: 20px auto;
+    .bosque-negro {
+        width: 100%;
+        height: 600px;
+    }
+    .caminos-info {
+        h3{
+            text-align: center;
+            &:hover{
+                text-decoration: underline
+            }
+        }
+    }
+}
